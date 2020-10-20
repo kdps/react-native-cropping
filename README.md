@@ -37,7 +37,9 @@ The can be animated as shown in the example using `AnimatedLayout`.
 Here is a code sample:
 
 ```
-<CroppingView
+import CroppedImage from 'react-native-cropping';
+
+<CroppedImage.CroppingView
   cropTop={50}
   cropLeft={50}
   width={200}
@@ -79,7 +81,9 @@ In the example the image is sized to the cropping area.
 Here is a pretty simple example:
 
 ```
-<CroppedImage
+import CroppedImage from 'react-native-cropping';
+
+<CroppedImage.CroppedImage
   source={require('image!alien')}
   cropTop={110}
   cropLeft={75}
