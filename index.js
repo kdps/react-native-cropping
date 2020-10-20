@@ -72,7 +72,7 @@ class CroppedImage extends React.Component {
   }
 };
 
-module.exports = {
+export default {
   CroppedImage: CroppedImage,
   CroppingView: CroppingView
 };
