@@ -7,7 +7,7 @@ that allow you to crop views and to provide cropped images.
 ## Installation
 
 ```
-npm install react-native-cropping --save
+npm install https://github.com/kdps/react-native-cropping.git
 ```
 
 ## Obligatory Demo
