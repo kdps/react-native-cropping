@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import {
   Text,
   View,
-  Image
+  ImageBackground
 } from "react-native";
 
 class CroppingView extends React.Component {
@@ -56,7 +56,7 @@ class CroppedImage extends React.Component {
         width: this.props.cropWidth,
         backgroundColor: 'transparent'
         }, this.props.style]}>
-        <Image style={{
+        <ImageBackground style={{
           position: 'absolute',
           top: this.props.cropTop * -1,
           left: this.props.cropLeft * -1,
