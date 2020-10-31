@@ -66,7 +66,7 @@ class CroppedImage extends React.Component {
           source={this.props.source}
           resizeMode={this.props.resizeMode}>
           {this.props.children}
-        </Image>
+        </ImageBackground>
       </View>
     );
   }
