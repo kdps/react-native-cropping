@@ -1,6 +1,6 @@
 {
   "name": "react-native-cropping",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cropping components for react-native",
   "main": "index.js",
   "scripts": {},
@@ -8,6 +8,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/walmartreact/react-native-cropping.git"
+    "url": "https://github.com/kdps/react-native-cropping.git"
   }
 }
